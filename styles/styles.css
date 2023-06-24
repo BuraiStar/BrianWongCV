@@ -1,0 +1,196 @@
+/* Place your CSS styles in this file */
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("../src/LicensedWork/technology-background-with-hexagonal-net/303.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.topContainer {
+  line-height: 150%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #280049;
+}
+
+.content {
+  padding: 15px;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header .social a{
+  padding-right: 10px;
+  padding-bottom: 0px;
+  color: #66d1cf;
+}
+
+.sideBar{
+  width: 220px;
+  position: fixed;
+}
+
+.left{
+  float: left;
+  padding: 1em;
+  width: 220px;
+  margin: 0;
+}
+
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li a{
+  display: block;
+  color: #f9d923;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 100%;
+  border: 1px solid black;
+}
+
+li a.active{
+  background-color: rgb(168, 1, 168);
+  font-weight: bolder;
+  font-size: 105%;
+}
+
+li a:hover:not(.active){
+  background-color: rgba(255,255,255, 100);
+  font-weight: bolder;
+  font-size: 105%;
+}
+
+.mainContent {
+  margin-left: 190px;
+  border-left: 1px solid #d4d4d4;
+  padding: 1em;
+  overflow: hidden;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 200px;
+  margin: 8px 
+}
+
+td,th{
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8;
+}
+
+tr:nth-child(1) {
+  background-color: #6ccfce;
+  color: black;
+}
+
+tr td i.fas {
+  display: block;
+  font-size: 35px;
+  text-align: center;
+  height: 200px;
+  background-color: white;
+}
+
+tr td:nth-child(1){
+  text-align: center;
+}
+tr td{
+  background-color: white;
+}
+
+.iconImg{
+  font-size: 500%;
+}
+
+
+.iconGreyImg{
+  font-size: 500%;
+  color:#280049;
+}
+
+.titleIcon{
+  font-size: 400%;
+}
+
+.titleFont{
+  font-family:"Poppins";
+  font-size : 32px;
+  font-weight : bolder;
+  color: white;
+}
+
+.nameFont{
+  font-family:"Rubik";
+  font-size : 24px;
+  font-weight : bolder;
+  color: white;
+}
+
+.companyNameFont{
+  font-family:"Rubik";
+  font-size : 20px;
+  font-weight : bolder;
+  color: white;
+}
+
+.textFont{
+  font-family:"Rubik";
+  font-size : 18px;
+  line-height: 150%;
+  color: white;
+}
+
+.textEmailFont{
+  font-family:"Rubik";
+  font-size : 14px;
+  line-height: 150%;
+  color: white;
+}
+
+a:visited {
+  color: #f9d923;
+}
+a:hover {
+  color: #3ec70b;
+}
+a:active {
+  color: coral;
+}
+
+.wrapper {
+  min-height: 40%;
+  height: auto !important;
+  height: 0%;
+  margin: 0 auto -0px;
+}
+
+.footer {
+  padding: 55px 5px;
+  background-color: #280049;
+  color: white;
+  text-align: center;
+  font-family:"Poppins";
+  font-size : 28px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
